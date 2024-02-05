@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'Josefin Sans';
+  src: local('Josefin Sans'),
+    url('/public/Josefin_Sans/JosefinSans-VariableFont_wght.ttf')
+      format('truetype');
+  font-weight: 300;
+}
+
+.galleryContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.galeriePoze {
+  column-count: 4;
+  column-gap: 20px;
+  max-width: 90%;
+}
+
+.image {
+  margin: 0;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  margin-bottom: 20px;
+  break-inside: avoid;
+}
+
+.image img {
+  grid-row: 1 / -1;
+  grid-column: 1;
+}
+
+@media screen and (max-width: 600px) {
+  .galeriePoze {
+    column-count: 1;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .galeriePoze {
+    column-count: 2;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .galeriePoze {
+    column-count: 3;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .galeriePoze {
+    column-count: 4;
+  }
+}
