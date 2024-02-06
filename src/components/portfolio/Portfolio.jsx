@@ -44,7 +44,6 @@ export default function Portfolio() {
     '/portfolio/Photo-19.01.jpg',
     '/portfolio/pigeon.jpg',
     '/portfolio/queen.jpg',
-    '/portfolio/santa.jpg',
     '/portfolio/staircase_smaLL.jpg',
     '/portfolio/store.jpg',
     '/portfolio/tea.jpg',
