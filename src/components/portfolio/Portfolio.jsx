@@ -7,7 +7,6 @@ import styles from './portfolio.module.css';
 export default function Portfolio() {
   const images = [
     '/portfolio/A-bucket-full-of-tears.jpg',
-    '/portfolio/adv.jpg',
     '/portfolio/big-tony.jpg',
     '/portfolio/bus.jpg',
     '/portfolio/caat.jpg',
@@ -22,7 +21,6 @@ export default function Portfolio() {
     '/portfolio/dm.jpg',
     '/portfolio/evelator.jpg',
     '/portfolio/field.jpg',
-    '/portfolio/Galle-Fort---Dutch-Reformed-Church.jpg',
     '/portfolio/garden2.jpg',
     '/portfolio/granny.jpg',
     '/portfolio/housecat1.jpg',
@@ -47,7 +45,6 @@ export default function Portfolio() {
     '/portfolio/pigeon.jpg',
     '/portfolio/queen.jpg',
     '/portfolio/santa.jpg',
-    '/portfolio/sewer.jpg',
     '/portfolio/staircase_smaLL.jpg',
     '/portfolio/store.jpg',
     '/portfolio/tea.jpg',
@@ -60,8 +57,6 @@ export default function Portfolio() {
     '/portfolio/train.jpg',
     '/portfolio/tree-(2).jpg',
     '/portfolio/vintagestore.jpg',
-    '/portfolio/VW-farul.jpg',
-    '/portfolio/window.jpg',
   ];
 
   return (
